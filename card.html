@@ -8,9 +8,21 @@
         .container{
             width: 1440px;
             padding: 100px 40px;
-            display: grid;
-            grid-template-columns: 4fr, 1fr;
+            display: flex;
+            align-items: center;
+            justify-items: center;
             gap: 24px;
+        }
+        .container img{
+            width: 10%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid ghostwhite;
+            transition: all ease-in-out 0.5s;
+        }
+        .container img:hover{
+            width: 25%;
         }
     </style>
 </head>
